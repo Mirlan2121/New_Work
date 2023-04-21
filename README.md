@@ -22,10 +22,16 @@ __float__
 __double__   
 __boolean__  
 
+# Параметры переменного
+
+![pere](https://luxe-host.ru/wp-content/uploads/f/f/5/ff52f594652d34a6a47729f656976d0d.jpeg)
+
 Их можно разделить на четыре группы:  
 Целые.К ним относятся типы `byte, short, int и long`. 
 Эти типы предназначены для целых чисел со знаком.
 Типы с плавающей точкой — `float и double`. Они служат для представления чисел, имеющих дробную часть. 
-Символьный тип `char`.
+Символьный тип `char`.  
+
+
 
 ![logo](https://fuzeservers.ru/wp-content/uploads/2/a/9/2a9a004c871d00d46e9ba1158b569f77.png)
