@@ -3,6 +3,14 @@ package com.compan;
 import java.util.concurrent.TimeUnit;
 
 public class Main {
+    public static void printCounter(int counter, String text)throws InterruptedException {
+        System.out.println(text);
+        for (int i = counter; i >= 0; i--){
+            System.out.println(i + "...");
+            TimeUnit.SECONDS.sleep(1);
+        }
+
+    }
     public static void main(String[] args) throws InterruptedException {
         System.out.println("Иду на кухню");
         int eqqCount = 2;
@@ -16,7 +24,7 @@ public class Main {
                             eqqToFry - eqqCount)
             );
         }
-        if (!haveButter || !haveSalt){
+            if (!haveButter || !haveSalt){
             System.out.println("Иду в магазин за солью и маслом");
         }
         if (!panClean){
